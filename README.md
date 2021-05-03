@@ -7,7 +7,7 @@ NGINX is open source software for web serving, reverse proxying, caching, load b
 
 
 
-How Does Nginx Work?
+# How Does Nginx Work?
 
 Nginx is built to offer low memory usage and high concurrency. Rather than creating new processes for each web request, Nginx uses an asynchronous, event-driven approach where requests are handled in a single thread.
 
@@ -25,7 +25,7 @@ Some common features seen in Nginx include:
 
 
 
-
+# layer 4 , 7
 
 
 
