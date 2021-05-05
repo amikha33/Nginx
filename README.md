@@ -40,3 +40,48 @@ https://phoenixnap.com/kb/nginx-reverse-proxy
 
 https://www.netguru.com/codestories/nginx-tutorial-basics-concepts
 
+
+
+
+## Install Nginx
+## web server 
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04 
+https://www.tecmint.com/install-nginx-on-ubuntu-20-04/
+
+
+Nginx Configuration
+serve static content
+ Proxy pass 
+location / {
+    try_files $uri $uri/ @backend;
+}
+
+location @backend {
+    proxy_pass http://backend.example.com;
+}
+
+
+https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/
+
+## Layer 7 Proxy 
+Check docker 
+https://www.nginx.com/resources/glossary/layer-7-load-balancing/
+
+
+
+Proxy to 4 Backend NoseJs
+
+
+
+
+Split load to multiple Backends 
+Block certain Request
+## Nginx Layer 4 
+## Enable HTTPS on Nginx Lets Encrypt
+## TLS 
+## HTTP/2
+
+
+
+
+
