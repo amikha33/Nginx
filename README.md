@@ -30,6 +30,13 @@ Some common features seen in Nginx include:
 
 
 
+https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx  Good one
+
+
 
 # Resources
 https://phoenixnap.com/kb/nginx-reverse-proxy
+
+
+https://www.netguru.com/codestories/nginx-tutorial-basics-concepts
+
