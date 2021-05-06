@@ -55,12 +55,22 @@ You can point your browser to your server IP address. You should see this page:
 
 
 
+
+
+
+
+
+
 ## web server 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04 
 https://www.tecmint.com/install-nginx-on-ubuntu-20-04/
 
 
 Nginx Configuration
+
+     cd /etc/nginx
+
+
 serve static content
  Proxy pass 
 location / {
