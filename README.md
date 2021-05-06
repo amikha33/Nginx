@@ -44,6 +44,17 @@ https://www.netguru.com/codestories/nginx-tutorial-basics-concepts
 
 
 ## Install Nginx
+https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
+
+sudo apt update
+sudo apt install nginx
+After installing it, you already have everything you need.
+      ip addr
+
+You can point your browser to your server IP address. You should see this page:
+
+
+
 ## web server 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04 
 https://www.tecmint.com/install-nginx-on-ubuntu-20-04/
