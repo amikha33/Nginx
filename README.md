@@ -185,6 +185,23 @@ from configration files
 
 
 
+Load Balancing IP Hash
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/46167070/117774619-0237f100-b23a-11eb-9299-a4cc04abe173.png)
+
+![image](https://user-images.githubusercontent.com/46167070/117774839-2d224500-b23a-11eb-9c35-0f02b40eec21.png)
+
+
+
+
+
+
+
+
 
 
 
