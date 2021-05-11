@@ -17,7 +17,8 @@ List the application configurations that ufw knows how to work with by typing:
 
 As you can see, there are three profiles available for Nginx:
 
-    Nginx Full: This profile opens both port 80 (normal, unencrypted web traffic) and port 443 (TLS/SSL encrypted traffic)
+    Nginx Full: This profile opens both port 80 (normal, unencrypted web traffic) 
+    port 443 (TLS/SSL encrypted traffic)
     Nginx HTTP: This profile opens only port 80 (normal, unencrypted web traffic)
     Nginx HTTPS: This profile opens only port 443 (TLS/SSL encrypted traffic)
 
@@ -26,11 +27,17 @@ It is recommended that you enable the most restrictive profile that will still a
 You can enable this by typing:
 
 
-![image](https://user-images.githubusercontent.com/46167070/117724668-5fa15300-b1e4-11eb-95f2-64eb221b723d.png)
+
+
+<br>
+sudo systemctl status nginx <br>
+
+![image](https://user-images.githubusercontent.com/46167070/117807173-8c448180-b25b-11eb-835c-46c6f339d6d2.png)
+
 
 
 
 Checking your Web Server
 
+![image](https://user-images.githubusercontent.com/46167070/117807055-6a4aff00-b25b-11eb-93a3-cfe2baa961bf.png)
 
-sudo systemctl status nginx
