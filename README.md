@@ -3,6 +3,9 @@ NGINX is open source software for web serving, reverse proxying, caching, load b
 
 
 
+# NGINX as a Web Server
+
+The goal behind NGINX was to create the fastest web server around, and maintaining that excellence is still a central goal of the project. NGINX consistently beats Apache and other servers in benchmarks measuring web server performance. Since the original release of NGINX, however, websites have expanded from simple HTML pages to dynamic, multifaceted content. NGINX has grown along with it and now supports all the components of the modern Web, including WebSocket, HTTP/2, gRPC, and streaming of multiple video formats (HDS, HLS, RTMP, and others).
 
 
 
@@ -21,73 +24,6 @@ Some common features seen in Nginx include:
     FastCGI support with caching
     WebSockets
     Handling of static files, index files, and auto-indexing
-    TLS/SSL with SNI
-
-
-
-# layer 4 , 7
-
-
-
-
-https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx  Good one
-
-
-
-# Resources
-https://phoenixnap.com/kb/nginx-reverse-proxy
-
-
-https://www.netguru.com/codestories/nginx-tutorial-basics-concepts
-
-
-
-
-## Install Nginx
-https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
-
-sudo apt update
-sudo apt install nginx
-After installing it, you already have everything you need.
-      ip addr
-
-You can point your browser to your server IP address. You should see this page:
-
-
-
-
-
-
-
-
-
-## web server 
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04 
-https://www.tecmint.com/install-nginx-on-ubuntu-20-04/
-
-
-Nginx Configuration
-
-     cd /etc/nginx
-
-
-serve static content
- Proxy pass 
-location / {
-    try_files $uri $uri/ @backend;
-}
-
-location @backend {
-    proxy_pass http://backend.example.com;
-}
-
-
-https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/
-
-## Layer 7 Proxy 
-Check docker 
-https://www.nginx.com/resources/glossary/layer-7-load-balancing/
-
-
+    TLS/SSL
 
 
