@@ -28,7 +28,7 @@ Chances are that you already have it available on your system – it should now 
      
  
 
-$ sudo openssl req -new -days 365 -key your_domain.key -out your_domain.csr
+     sudo openssl req -new -days 365 -key your_domain.key -out your_domain.csr
 
     
      
