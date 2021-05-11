@@ -9,7 +9,7 @@ Load balancing across multiple application instances is a commonly used techniqu
 
 Proxying HTTP Traffic to a Group of Servers
 
-To start using NGINX Plus or NGINX Open Source to load balance HTTP traffic to a group of servers, first you need to define the group with the upstream directive. The directive is placed in the http context.
+To start using NGINX Plus or NGINX Open Source to load balance HTTP traffic to a group of servers, first you need to define the group with the upstream directive. The directive is placed in the http context,Servers Are Deployed By AWS EC2
 
 Servers in the group are configured using the server directive (not to be confused with the server block that defines a virtual server running on NGINX). For example, the following configuration defines a group named **allbackend** and consists of three server configurations (which may resolve in more than three actual servers):
 
@@ -43,4 +43,3 @@ IP Hash – The server to which a request is sent is determined from the client 
 
 ![image](https://user-images.githubusercontent.com/46167070/117774619-0237f100-b23a-11eb-9299-a4cc04abe173.png)
 
-![image](https://user-images.githubusercontent.com/46167070/117774839-2d224500-b23a-11eb-9c35-0f02b40eec21.png)
