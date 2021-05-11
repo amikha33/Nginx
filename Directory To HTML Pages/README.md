@@ -14,6 +14,9 @@
 This location block specifies the “/” prefix compared with the URI from the request. For matching requests, the URI will be added to the path specified in the root directive, that is, to /data/www, to form the path to the requested file on the local file system. If there are several matching location blocks nginx selects the one with the longest prefix. The location block above provides the shortest prefix, of length one, and so only if all other location blocks fail to provide a match, this block will be used. 
  
  
+# Create Folder for HTML pages
+
+![image](https://user-images.githubusercontent.com/46167070/117847303-83b37180-b282-11eb-9417-284032ba5591.png)
 
 
 
