@@ -53,3 +53,14 @@ This directive defines the number of time that Nginx should wait between two rea
 Syntax: Numeric value (time)
 
 Default value: 5 seconds
+
+# resolver_timeout
+
+Context: http, server, and location
+
+Timeout for a hostname resolution query.
+
+Syntax: Time value (in seconds)
+
+Default value: 30
+
