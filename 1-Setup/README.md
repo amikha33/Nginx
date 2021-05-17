@@ -1,8 +1,7 @@
-Setup and directory to local host by IP 
-## Setup 
+## Setup On Ubuntu machine  
 
-sudo apt update
-sudo apt install nginx
+    sudo apt update
+    sudo apt install nginx
 
 
 ![image](https://user-images.githubusercontent.com/46167070/117722546-7befc080-b1e1-11eb-8968-7781108c0f28.png)
@@ -37,7 +36,13 @@ sudo systemctl status nginx <br>
 
 
 
-Checking your Web Server
+Checking your Web Server by Your IP 
 
 ![image](https://user-images.githubusercontent.com/46167070/117807055-6a4aff00-b25b-11eb-93a3-cfe2baa961bf.png)
+
+<br> 
+# Setup NginX on other  Operating systems 
+[Windows NginX setup](https://www.maketecheasier.com/install-nginx-server-windows/)
+[MaOS NginX setup](https://sylvaindurand.org/setting-up-a-nginx-web-server-on-macos/)
+
 
