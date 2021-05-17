@@ -41,7 +41,7 @@ Checking your Web Server by Your IP
 ![image](https://user-images.githubusercontent.com/46167070/117807055-6a4aff00-b25b-11eb-93a3-cfe2baa961bf.png)
 
 <br> 
-## Setup NginX on other  Operating systems  <br>
+## Setup NginX on other  Operating systems 
 
 [Windows NginX setup](https://www.maketecheasier.com/install-nginx-server-windows/) 
 
