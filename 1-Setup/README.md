@@ -26,10 +26,9 @@ It is recommended that you enable the most restrictive profile that will still a
 You can enable this by typing:
 
 
-
-
 <br>
-sudo systemctl status nginx <br>
+        
+        sudo systemctl status nginx <br>
 
 ![image](https://user-images.githubusercontent.com/46167070/117807173-8c448180-b25b-11eb-835c-46c6f339d6d2.png)
 
@@ -40,8 +39,7 @@ Checking your Web Server by Your IP
 
 ![image](https://user-images.githubusercontent.com/46167070/117807055-6a4aff00-b25b-11eb-93a3-cfe2baa961bf.png)
 
-<br> 
-## Setup NginX on other  Operating systems 
+## Setup On other Operating systems 
 
 [Windows NginX setup](https://www.maketecheasier.com/install-nginx-server-windows/) 
 
