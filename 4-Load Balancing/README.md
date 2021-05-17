@@ -1,17 +1,14 @@
-load balancer 
+# load balancer 
 
 Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault‑tolerant configurations.
 
 
-
-
-
-
-Proxying HTTP Traffic to a Group of Servers
+## Proxying HTTP Traffic to a Group of Servers
 
 To start using NGINX Plus or NGINX Open Source to load balance HTTP traffic to a group of servers, first you need to define the group with the upstream directive. The directive is placed in the http context,Servers Are Deployed By AWS EC2
 
 Servers in the group are configured using the server directive (not to be confused with the server block that defines a virtual server running on NGINX). For example, the following configuration defines a group named **allbackend** and consists of three server configurations (which may resolve in more than three actual servers):
+![image](https://user-images.githubusercontent.com/46167070/117737957-350ec480-b1fb-11eb-9f9a-13380644ea0f.png)
 
 
 
@@ -19,7 +16,8 @@ Round Robin – Requests are distributed evenly across the servers, with server 
 
 
 
-![image](https://user-images.githubusercontent.com/46167070/117737957-350ec480-b1fb-11eb-9f9a-13380644ea0f.png)
+
+![image](https://user-images.githubusercontent.com/46167070/118540602-08096700-b751-11eb-9732-6046aab5b40b.png)
 
 
 
@@ -28,7 +26,11 @@ Round Robin – Requests are distributed evenly across the servers, with server 
 
 
 
-![image](https://user-images.githubusercontent.com/46167070/117738014-58d20a80-b1fb-11eb-8837-c72e763d4fac.png)
+
+
+
+
+
 
 
 
