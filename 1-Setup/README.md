@@ -28,7 +28,7 @@ You can enable this by typing:
 
 <br>
         
-        sudo systemctl status nginx <br>
+        sudo systemctl status nginx 
 
 ![image](https://user-images.githubusercontent.com/46167070/117807173-8c448180-b25b-11eb-835c-46c6f339d6d2.png)
 
