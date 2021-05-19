@@ -1,6 +1,23 @@
 # Nginx
 NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
 
+![image](https://user-images.githubusercontent.com/46167070/118860256-77ab5d80-b8db-11eb-9104-9a0c9f1ce84d.png)
+
+
+### What are load balancers and how do they work?
+
+A load balancer may be:
+
+1-physical device, a virtualized instance running on specialized hardware or a software process. <br>
+
+2-Incorporated into application delivery controllers (ADCs) designed to more broadly improve the performance and security of three-tier web and microservices-based applications, regardless of where they’re hosted. <br>
+
+3-Able to leverage many possible load balancing algorithms, including round robin, server response time and the least connection method to distribute traffic in line with current requirements.
+
+
+![image](https://user-images.githubusercontent.com/46167070/118860874-2c457f00-b8dc-11eb-8fa7-064c8b7b4d2f.png)
+
+
 
 
 # NGINX as a Web Server
