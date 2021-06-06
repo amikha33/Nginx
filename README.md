@@ -44,3 +44,17 @@ Some common features seen in Nginx include:
     TLS/SSL
 
 
+# Advnced Topics
+https://www.youtube.com/watch?v=xZrOjmAkFC8
+
+https://www.nginx.com/blog/smart-efficient-byte-range-caching-nginx/
+https://www.nginx.com/blog/dynamic-bandwidth-limits-nginx-plus-key-value-store/
+
+chapter 5 
+Massively Scalable Content Caching
+chapter 6 
+Sophisticated Media Streaming
+
+
+
+
