@@ -54,7 +54,5 @@ chapter 5
 Massively Scalable Content Caching
 chapter 6 
 Sophisticated Media Streaming
-
-
-
+nginx Authentication senstive pages
 
