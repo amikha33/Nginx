@@ -57,4 +57,5 @@ Sophisticated Media Streaming
 nginx Authentication senstive pages
 https://www.javatpoint.com/nginx-content-caching
 
+How to check Zipping https://stackoverflow.com/questions/9140178/how-can-i-tell-if-my-server-is-serving-gzipped-content
 
