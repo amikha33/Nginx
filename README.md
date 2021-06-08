@@ -55,4 +55,6 @@ Massively Scalable Content Caching
 chapter 6 
 Sophisticated Media Streaming
 nginx Authentication senstive pages
+https://www.javatpoint.com/nginx-content-caching
+
 
